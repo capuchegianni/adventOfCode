@@ -1,4 +1,4 @@
-import { inputPartOne, inputPartTwo } from "./input.mjs";
+import input from "./input.mjs";
 
 const partOne = (input) => {
     const lines = input.split("\n");
@@ -85,5 +85,5 @@ const detectNumbers = (line) => {
     return numbers;
 }
 
-partOne(inputPartOne);
-partTwo(inputPartTwo);
+partOne(input);
+partTwo(input);
